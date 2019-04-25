@@ -1,0 +1,10 @@
+console.log(12);
+console.log(12.0);
+console.log(-12.0);
+console.log(Infinity);
+console.log(-Infinity);
+console.log(NaN);
+let myNumber = 33;
+console.log(myNumber.toString);
+console.log(Math.round(12.1224214));
+console.log(Math.random());

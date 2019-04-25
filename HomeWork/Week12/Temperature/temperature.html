@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Temperature Conversion JavaScript</title>
+	<link rel="stylesheet" type="text/css" href="_/css/style.css">
+	<link href='http://fonts.googleapis.com/css?family=Droid+Sans|Droid+Serif' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+	<!-- Image and Title -->
+	<div class="jumbotron jumbotron-fluid">
+		<div class="container">
+			<h1 class="display-4">Temperature Conversion</h1>
+			<img class="" src="temperature.jpg" alt="Temperature Meter Gauge"></img>
+		</div>
+	</div>
+	<!-- Verticle Container -->
+	<div class="container">
+		<div class="row">
+			<div class="center-block">
+				<!-- Input Box -->
+				<div class="input-group mb-3">
+					<div class="input-group-prepend">
+						<span class="input-group-text" id="inputGroup-sizing-default">Enter the temperature to be
+							converted
+							:
+						</span>
+					</div>
+					<input type="text" class="form-control" aria-label="Sizing example input"
+						aria-describedby="inputGroup-sizing-default" id="degrees">
+				</div>
+
+				<!-- Conversion Type -->
+				<form>
+					<fieldset class="form-group">
+						<div class="row">
+							<div class="col-sm-10 " id="radioGroups">
+								<div class="form-check">
+									<input class="form-check-input" type="radio" name="gridRadios" id="gridFahrenheit"
+										value="Fahrenheit">
+									<label class="form-check-label" for="gridFahrenheit">
+										Fahrenheit
+									</label>
+								</div>
+								<div class="form-check">
+									<input class="form-check-input" type="radio" name="gridRadios" id="gridCelsius"
+										value="Celsius">
+									<label class="form-check-label" for="gridCelsius">
+										Celsius
+									</label>
+								</div>
+							</div>
+						</div>
+					</fieldset>
+				</form>
+				<!-- Confirmation Button -->
+				<button onclick="myFunction()" type="button" class="btn btn-primary btn-lg">Convert</button>
+			</div>
+
+			<!-- Output Box-->
+			<div class="center-block outPutBox" id="outPutBox">
+
+			</div>
+			<!-- End Verticle Container-->
+		</div>
+	</div>
+	<!-- Footer -->
+	<footer>
+		<p>&reg; Aaron Alvarez CS4220</p>
+	</footer>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+	integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+	crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+	integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+	crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+	integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+	crossorigin="anonymous"></script>
+<script src="_/js/temperature.js"></script>
+
+</html>

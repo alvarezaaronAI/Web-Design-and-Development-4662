@@ -1,0 +1,16 @@
+{
+  "name": "starwars-module",
+  "version": "1.0.0",
+  "description": "Module for Star Wars Chracters API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aaron Alvarez",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^6.2.2",
+    "superagent": "^4.1.0",
+    "yargs": "^13.2.2"
+  }
+}

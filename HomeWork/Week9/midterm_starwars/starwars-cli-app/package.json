@@ -1,0 +1,17 @@
+{
+  "name": "starwars-cli-app",
+  "version": "1.0.0",
+  "description": "Command Line app that searches and fetches StarWar's characters information/description.",
+  "main": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aaron Alvarez",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^6.2.2",
+    "starwars-module": "file:../starwars-module",
+    "superagent": "^4.1.0",
+    "yargs": "^13.2.2"
+  }
+}
